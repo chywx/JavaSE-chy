@@ -9,6 +9,7 @@ import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 /**
+ * https://blog.csdn.net/javaYouCome/article/details/86480588
  * Function<T, R>：接受一个参数T，返回结果R
  * Predicate<T>：接受一个参数T，返回boolean
  * Supplier<T>：不接受任何参数，返回结果T
