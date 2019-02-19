@@ -1,10 +1,14 @@
 package com.chy.design.proxy.jdkdynamic;
 
+import org.junit.Test;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
 public class DynamicProxyTest {
-    public static void main(String[] args) {
+
+    @Test
+    public void test1(){
         //创建一个实例对象，这个对象是被代理的对象
         Person0219 zhangsan = new Student0219("张三");
 
@@ -18,4 +22,18 @@ public class DynamicProxyTest {
         //代理执行上交班费的方法
         stuProxy.giveMoney();
     }
+
+    @Test
+    public void test2(){
+        //创建一个实例对象，这个对象是被代理的对象
+        Person0219 zhangsan = new Student0219("李四");
+
+        //创建一个代理对象stuProxy来代理zhangsan，代理对象的每个执行方法都会替换执行Invocation中的invoke方法
+        MyInvocationHandler handler = new MyInvocationHandler(zhangsan);
+        Person0219 stuProxy = (Person0219) handler.getChy();
+
+        //代理执行上交班费的方法
+        stuProxy.giveMoney();
+    }
+
 }

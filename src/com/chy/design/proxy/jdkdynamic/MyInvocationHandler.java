@@ -2,6 +2,7 @@ package com.chy.design.proxy.jdkdynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 public class MyInvocationHandler implements InvocationHandler {
     //invocationHandler持有的被代理对象
@@ -25,4 +26,12 @@ public class MyInvocationHandler implements InvocationHandler {
         MonitorUtil.finish(method.getName());
         return result;
     }
+
+    //创建一个代理对象stuProxy来代理zhangsan，代理对象的每个执行方法都会替换执行Invocation中的invoke方法
+
+    public Object getChy(){
+        Object o = Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
+        return o;
+    }
+
 }
