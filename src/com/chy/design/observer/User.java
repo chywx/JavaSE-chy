@@ -1,5 +1,9 @@
 package com.chy.design.observer;
 
+/**
+ * 观察者
+ * 实现了update方法
+ */
 public class User implements Observer {
 
 	private String name;

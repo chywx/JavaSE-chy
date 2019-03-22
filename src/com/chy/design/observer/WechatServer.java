@@ -3,6 +3,10 @@ package com.chy.design.observer;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 被观察者，也就是微信公众号服务
+ * 实现了Observerable接口，对Observerable接口的三个方法进行了具体实现
+ */
 public class WechatServer implements Observerable {
 
 	// 注意到这个List集合的泛型参数为Observer接口，设计原则：面向接口编程而不是面向实现编程
@@ -15,7 +19,6 @@ public class WechatServer implements Observerable {
 
 	@Override
 	public void registerObserver(Observer o) {
-
 		list.add(o);
 	}
 
