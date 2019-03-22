@@ -1,5 +1,5 @@
 # JavaSE_chy
-> java基础汇集，各种demo测试
+> java基础汇集，各种demo测试，基于jdk1.8
 
 
 ### 设计模式
