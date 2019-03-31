@@ -2,6 +2,7 @@ package com.util.test;
 
 
 import com.util.CloneUtils;
+import org.springframework.beans.BeanUtils;
 
 public class TestClone {
 

@@ -1,7 +1,7 @@
 package com.util.test;
 
-import com.utils.BeanChangeUtil;
-import com.utils.PropertyMsg;
+import com.util.BeanChangeUtil;
+import com.util.PropertyMsg;
 
 public class TestChange {
 

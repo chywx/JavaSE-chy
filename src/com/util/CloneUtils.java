@@ -23,7 +23,7 @@ public class CloneUtils {
     }
 
     // spring 浅克隆，返回新的对象，不需要new
-    public static <T> T springClone(T t) throws IllegalAccessException, InstantiationException {
+    public static <T> T springClone(T t) throws Exception {
         T target = (T) t.getClass().newInstance();
         BeanUtils.copyProperties(t,target);
         return target;
