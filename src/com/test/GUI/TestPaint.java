@@ -1,4 +1,4 @@
-package com.test.gui;
+package com.test.GUI;
 
 import java.awt.*;
 public class TestPaint{

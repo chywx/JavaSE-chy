@@ -6,19 +6,21 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 
 public class BeanChangeUtil<T> {
-
     public String contrastObj(Object oldBean, Object newBean) {
+        // 创建字符串拼接对象
         StringBuilder str = new StringBuilder();
+        // 转换为传入的泛型T
         T pojo1 = (T) oldBean;
         T pojo2 = (T) newBean;
         // 通过反射获取类的Class对象
         Class clazz = pojo1.getClass();
         // 获取类型及字段属性
         Field[] fields = clazz.getDeclaredFields();
-//        return jdk8Before(fields, pojo1, pojo2, str,clazz);
-        return jdk8OrAfter(fields, pojo1, pojo2, str,clazz);
+        return jdk8Before(fields, pojo1, pojo2, str,clazz);
+//        return jdk8OrAfter(fields, pojo1, pojo2, str,clazz);
     }
 
+    // jdk8 普通循环方式
     public String jdk8Before(Field[] fields,T pojo1,T pojo2,StringBuilder str,Class clazz){
         int i = 1;
         try {
@@ -44,6 +46,7 @@ public class BeanChangeUtil<T> {
         return str.toString();
     }
 
+    // lambda表达式，表达式内部的变量都是final修饰，需要传入需要传入final类型的数组
     public String jdk8OrAfter(Field[] fields, T pojo1, T pojo2, StringBuilder str, Class clazz){
         final int[] i = {1};
         Arrays.asList(fields).forEach(f -> {
@@ -68,6 +71,5 @@ public class BeanChangeUtil<T> {
         });
         return str.toString();
     }
-
 }
 
