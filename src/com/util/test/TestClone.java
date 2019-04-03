@@ -4,13 +4,18 @@ package com.util.test;
 import com.util.CloneUtils;
 import org.springframework.beans.BeanUtils;
 
-public class TestClone {
+import java.io.Serializable;
+
+public class TestClone implements Serializable {
 
     public static void main(String[] args) throws Exception{
         TestClone demo = new TestClone();
         demo.setName("chy");
         demo.setAge(10);
+        demo.setCity("北京");
         TestClone clone = CloneUtils.springClone(demo);
+        System.out.println("demo:"+demo);
+        System.out.println("clone:"+clone);
         System.out.println(demo.equals(clone));
 
 
@@ -30,10 +35,23 @@ public class TestClone {
         TestClone common1 = CloneUtils.commonsClone(demo);
         System.out.println(common1);
 
+        TestClone testClone = CloneUtils.chyClone(demo, TestClone.class);
+        System.out.println("testClone:"+testClone);
+
     }
 
     private int age;
     private String name;
+
+    private transient String city;
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
 
     public int getAge() {
         return age;
@@ -56,6 +74,7 @@ public class TestClone {
         return "TestClone{" +
                 "age=" + age +
                 ", name='" + name + '\'' +
+                ", city='" + city + '\'' +
                 '}';
     }
 }
