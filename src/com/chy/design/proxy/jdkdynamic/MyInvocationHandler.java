@@ -3,6 +3,7 @@ package com.chy.design.proxy.jdkdynamic;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.Arrays;
 
 public class MyInvocationHandler implements InvocationHandler {
     //invocationHandler持有的被代理对象
@@ -20,16 +21,15 @@ public class MyInvocationHandler implements InvocationHandler {
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("代理执行" +method.getName() + "方法");
+        System.out.println("参数"+ Arrays.toString(args));
         //代理过程中插入监测方法,计算该方法耗时
-        MonitorUtil.start();
         Object result = method.invoke(target, args);
-        MonitorUtil.finish(method.getName());
         return result;
     }
 
     //创建一个代理对象stuProxy来代理zhangsan，代理对象的每个执行方法都会替换执行Invocation中的invoke方法
 
-    public Object getChy(){
+    public Object getProxy(){
         Object o = Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
         return o;
     }
