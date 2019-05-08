@@ -1,4 +1,4 @@
-package newcom.arithmetic;
+package newcom.datastructure;
 
 public class BinaryFind {
     public static void main(String[] args) {

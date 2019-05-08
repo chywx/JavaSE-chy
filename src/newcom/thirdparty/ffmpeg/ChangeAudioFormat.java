@@ -1,4 +1,4 @@
-package newcom.amrtomp3;
+package newcom.thirdparty.ffmpeg;
 
 import it.sauronsoftware.jave.*;
 

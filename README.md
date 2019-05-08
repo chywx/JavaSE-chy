@@ -1,6 +1,16 @@
 # JavaSE_chy
 > java基础汇集，各种demo测试，基于jdk1.8
 
+### newcom包 
+> 记录2019
+- basic (java基础)
+- collection (集合)
+- datastructure (数据结构)
+- socket (socket服务)
+- thirdparty (第三方-ocr-ffmpeg)
+- time (日期相关)
+
+
 
 ### 设计模式
 > com.chy.design 

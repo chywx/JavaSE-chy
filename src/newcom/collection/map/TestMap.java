@@ -1,4 +1,4 @@
-package newcom.jihe.map;
+package newcom.collection.map;
 
 import org.junit.Test;
 

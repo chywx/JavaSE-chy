@@ -1,4 +1,4 @@
-package newcom.ocr;
+package newcom.thirdparty.ocr;
 
 import com.baidu.aip.ocr.AipOcr;
 import org.json.JSONObject;

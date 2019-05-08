@@ -1,4 +1,4 @@
-package newcom.riqi.util;
+package newcom.time.util;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

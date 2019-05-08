@@ -1,4 +1,4 @@
-package newcom.arithmetic.tree;
+package newcom.datastructure.tree;
 
 public class BinaryTree {
     int data;

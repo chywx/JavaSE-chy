@@ -1,4 +1,4 @@
-package newcom.riqi;
+package newcom.time;
 
 import org.junit.Test;
 
