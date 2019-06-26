@@ -1,7 +1,7 @@
 package com.yang.jdk8.csdnxiaoliu;
 
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.function.Consumer;
 import java.util.function.Function;

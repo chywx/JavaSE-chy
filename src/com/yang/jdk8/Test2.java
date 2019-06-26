@@ -1,6 +1,6 @@
 package com.yang.jdk8;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Collections;
