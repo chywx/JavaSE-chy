@@ -16,16 +16,16 @@ public class BeanChangeUtil<T> {
         Class clazz = pojo1.getClass();
         // 获取类型及字段属性
         Field[] fields = clazz.getDeclaredFields();
-        return jdk8Before(fields, pojo1, pojo2, str,clazz);
+        return jdk8Before(fields, pojo1, pojo2, str, clazz);
 //        return jdk8OrAfter(fields, pojo1, pojo2, str,clazz);
     }
 
     // jdk8 普通循环方式
-    public String jdk8Before(Field[] fields,T pojo1,T pojo2,StringBuilder str,Class clazz){
+    public String jdk8Before(Field[] fields, T pojo1, T pojo2, StringBuilder str, Class clazz) {
         int i = 1;
         try {
             for (Field field : fields) {
-                if(field.isAnnotationPresent(PropertyMsg.class)){
+                if (field.isAnnotationPresent(PropertyMsg.class)) {
                     PropertyDescriptor pd = new PropertyDescriptor(field.getName(), clazz);
                     // 获取对应属性值
                     Method getMethod = pd.getReadMethod();
@@ -47,10 +47,10 @@ public class BeanChangeUtil<T> {
     }
 
     // lambda表达式，表达式内部的变量都是final修饰，需要传入需要传入final类型的数组
-    public String jdk8OrAfter(Field[] fields, T pojo1, T pojo2, StringBuilder str, Class clazz){
+    public String jdk8OrAfter(Field[] fields, T pojo1, T pojo2, StringBuilder str, Class clazz) {
         final int[] i = {1};
         Arrays.asList(fields).forEach(f -> {
-            if(f.isAnnotationPresent(PropertyMsg.class)){
+            if (f.isAnnotationPresent(PropertyMsg.class)) {
                 try {
                     PropertyDescriptor pd = new PropertyDescriptor(f.getName(), clazz);
                     // 获取对应属性值
@@ -64,7 +64,7 @@ public class BeanChangeUtil<T> {
                         str.append(i[0] + "、" + f.getAnnotation(PropertyMsg.class).value() + ":" + "修改前=>" + o1 + "\t修改后=>" + o2 + "\n");
                         i[0]++;
                     }
-                }catch (Exception e){
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }

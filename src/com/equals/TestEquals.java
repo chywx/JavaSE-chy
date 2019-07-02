@@ -55,7 +55,7 @@ public class TestEquals {
     }
 }
 
-class AdviceJson{
+class AdviceJson {
     private String evaluateContent;
     private String evaluateTags;
 

@@ -1,7 +1,7 @@
 package com.yang.jdk8.imoccstudy;
 
 /**
- *  匿名内部类的this指的是内部类，而lambda指的是当前类
+ * 匿名内部类的this指的是内部类，而lambda指的是当前类
  */
 public class ThisDemo {
     private String name = "ThisDemo";

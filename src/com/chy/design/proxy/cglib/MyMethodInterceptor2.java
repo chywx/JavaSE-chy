@@ -19,12 +19,12 @@ public class MyMethodInterceptor2 implements MethodInterceptor {
         // 设置回调方法
         enhancer.setCallback(this);
         // 创建代理对象
-        return (T)enhancer.create();
+        return (T) enhancer.create();
     }
 
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-        System.out.println("代理执行" +method.getName() + "方法");
+        System.out.println("代理执行" + method.getName() + "方法");
         System.out.println(Arrays.toString(objects));
         Object result = methodProxy.invokeSuper(o, objects);
         return result;

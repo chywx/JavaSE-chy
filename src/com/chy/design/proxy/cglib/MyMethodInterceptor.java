@@ -24,7 +24,7 @@ public class MyMethodInterceptor implements MethodInterceptor {
 
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-        System.out.println("代理执行" +method.getName() + "方法");
+        System.out.println("代理执行" + method.getName() + "方法");
         System.out.println(Arrays.toString(objects));
         Object result = methodProxy.invokeSuper(o, objects);
         return result;

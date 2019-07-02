@@ -13,7 +13,7 @@ import java.lang.reflect.InvocationTargetException;
  */
 public class CloneUtils {
     // 可以实现深克隆
-    public static <T> T chyClone(Object obj, Class<T> cla) throws Exception{
+    public static <T> T chyClone(Object obj, Class<T> cla) throws Exception {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         ObjectOutputStream oos = new ObjectOutputStream(baos);
         oos.writeObject(obj);
@@ -25,25 +25,25 @@ public class CloneUtils {
     // spring 浅克隆，返回新的对象，不需要new
     public static <T> T springClone(T t) throws Exception {
         T target = (T) t.getClass().newInstance();
-        BeanUtils.copyProperties(t,target);
+        BeanUtils.copyProperties(t, target);
         return target;
     }
 
     // spring 浅克隆，传入target对象
-    public static void springClone(Object object,Object target){
-        BeanUtils.copyProperties(object,target);
+    public static void springClone(Object object, Object target) {
+        BeanUtils.copyProperties(object, target);
     }
 
     // commons 浅克隆，返回新的对象，不需要new
     public static <T> T commonsClone(T t) throws IllegalAccessException, InstantiationException, InvocationTargetException {
         T target = (T) t.getClass().newInstance();
-        org.apache.commons.beanutils.BeanUtils.copyProperties(target,t);
+        org.apache.commons.beanutils.BeanUtils.copyProperties(target, t);
         return target;
     }
 
     // commons 浅克隆，返回传入的target对象
-    public static void commonsClone(Object object,Object target) throws InvocationTargetException, IllegalAccessException {
-        org.apache.commons.beanutils.BeanUtils.copyProperties(target,object);
+    public static void commonsClone(Object object, Object target) throws InvocationTargetException, IllegalAccessException {
+        org.apache.commons.beanutils.BeanUtils.copyProperties(target, object);
     }
 
 

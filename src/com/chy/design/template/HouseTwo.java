@@ -1,7 +1,7 @@
 package com.chy.design.template;
 
 public class HouseTwo extends HouseTemplate {
-    HouseTwo(String name){
+    HouseTwo(String name) {
         super(name);
     }
 

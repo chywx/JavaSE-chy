@@ -6,12 +6,12 @@ import java.util.stream.IntStream;
  * https://www.imooc.com/article/27181，写的挺好
  * 操作类型有几个维度
  * 首先分为 中间操作 和 最终操作，在最终操作没有调用的情况下，所有的中级操作都不会执行
- *  中间操作又分为 有状态操作 和 无状态操作
- *  最终操作里面分为短路操作和非短路操作
+ * 中间操作又分为 有状态操作 和 无状态操作
+ * 最终操作里面分为短路操作和非短路操作
  */
 public class StreamDemo1 {
     public static void main(String[] args) {
-        int[] nums = { 1, 2, 3 };
+        int[] nums = {1, 2, 3};
         // 外部迭代
         int sum = 0;
         for (int i : nums) {

@@ -45,6 +45,7 @@ public class Test {
         boolean search = serachBinaryTree(binaryTree1, 33, null);
         System.out.println(search == true ? "查找成功" + parentNode.data : "查找失败");
     }
+
     /**
      * 全局变量，存放查找到的关键字所在的父节点
      */
@@ -53,12 +54,9 @@ public class Test {
     /**
      * 二叉排序树
      *
-     * @param bt
-     *            待查询的二叉排序树
-     * @param key
-     *            查找关键字
-     * @param parent
-     *            指向bt的双亲，其初始调用值为null
+     * @param bt     待查询的二叉排序树
+     * @param key    查找关键字
+     * @param parent 指向bt的双亲，其初始调用值为null
      * @return 查找成功返回true，并将树节点赋值给全局变量result，查找失败返回false
      */
     public static boolean serachBinaryTree(BinaryTree bt, int key, BinaryTree parent) {

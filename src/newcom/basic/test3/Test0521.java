@@ -7,18 +7,18 @@ public class Test0521 {
     }
 
     /**
-     *  即使在finally里面进行了++操作，那调用testTry已经return了。所以输出1
+     * 即使在finally里面进行了++操作，那调用testTry已经return了。所以输出1
+     *
      * @return
      */
-    public static int testTry(){
+    public static int testTry() {
         int x = 1;
         try {
             return x;
-        }finally {
+        } finally {
             ++x;
         }
     }
-
 
 
 }

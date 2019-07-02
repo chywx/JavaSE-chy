@@ -2,9 +2,9 @@ package newcom.datastructure.tree;
 
 public class Test2 {
     public static void main(String[] args) {
-        int[] a = { 62, 88, 58, 47, 35, 73, 51, 99, 37, 93 };
+        int[] a = {62, 88, 58, 47, 35, 73, 51, 99, 37, 93};
         for (int i = 0; i < a.length; i++) {
-            System.out.println("第" + i+"次");
+            System.out.println("第" + i + "次");
             generateBinaryTree(a[i]);
         }
 
@@ -20,12 +20,9 @@ public class Test2 {
     /**
      * 二叉排序树
      *
-     * @param bt
-     *            待查询的二叉排序树
-     * @param key
-     *            查找关键字
-     * @param parent
-     *            指向bt的双亲，其初始调用值为null
+     * @param bt     待查询的二叉排序树
+     * @param key    查找关键字
+     * @param parent 指向bt的双亲，其初始调用值为null
      * @return 查找成功返回true，并将树节点赋值给全局变量result，查找失败返回false
      */
     public static boolean serachBinaryTree(BinaryTree bt, int key, BinaryTree parent) {
@@ -44,6 +41,7 @@ public class Test2 {
 
     /**
      * 生成二叉树
+     *
      * @param key
      * @return
      */
@@ -68,6 +66,7 @@ public class Test2 {
 
         return false;
     }
+
     /**
      * 中序遍历打印线索二叉树
      *

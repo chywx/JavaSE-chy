@@ -23,18 +23,19 @@ public class TestActionEvent {
         /* 调用这个方法可以自动给Frame窗体里面的子图形元素一个合适的初始大小 */
         f.setVisible(true);
     }
-    
+
     /**
      * 点击窗体上的关闭按钮关闭窗体
+     *
      * @param f
      */
-    private static void addWindowClosingEvent(Frame f){
+    private static void addWindowClosingEvent(Frame f) {
         f.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent arg0) {
                 System.exit(0);
             }
-            
+
         });
     }
 }

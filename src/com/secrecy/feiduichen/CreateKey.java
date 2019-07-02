@@ -8,7 +8,7 @@ import java.security.KeyPairGenerator;
 import java.security.SecureRandom;
 
 public class CreateKey {
-	private static void generateKeyPair() throws Exception{
+    private static void generateKeyPair() throws Exception {
         /** RSA算法要求有一个可信任的随机数源 */
         SecureRandom sr = new SecureRandom();
         /** 为RSA算法创建一个KeyPairGenerator对象 */
@@ -30,7 +30,8 @@ public class CreateKey {
         oos1.close();
         oos2.close();
     }
-	public static void main(String[] args) throws Exception {
-		generateKeyPair();
-	}
+
+    public static void main(String[] args) throws Exception {
+        generateKeyPair();
+    }
 }

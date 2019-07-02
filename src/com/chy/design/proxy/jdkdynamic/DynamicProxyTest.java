@@ -7,9 +7,8 @@ import java.lang.reflect.Proxy;
 public class DynamicProxyTest {
 
 
-
     @Test
-    public void test2(){
+    public void test2() {
         //创建一个实例对象，这个对象是被代理的对象
         Person0219 zhangsan = new Student0219("李四");
 
@@ -22,7 +21,7 @@ public class DynamicProxyTest {
     }
 
     @Test
-    public void test1(){
+    public void test1() {
         //创建一个实例对象，这个对象是被代理的对象
         Person0219 zhangsan = new Student0219("张三");
 

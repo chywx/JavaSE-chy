@@ -6,8 +6,8 @@ import com.util.PropertyMsg;
 public class TestChange {
 
     public static void main(String[] args) {
-        TestChange u1 = new TestChange("我是谁", "ok", 30,"刘德华");
-        TestChange u2 = new TestChange("我在哪", "no", 20,"郭富城");
+        TestChange u1 = new TestChange("我是谁", "ok", 30, "刘德华");
+        TestChange u2 = new TestChange("我在哪", "no", 20, "郭富城");
         BeanChangeUtil<TestChange> t = new BeanChangeUtil<>();
         String str = t.contrastObj(u1, u2);
         if (str.equals("")) {

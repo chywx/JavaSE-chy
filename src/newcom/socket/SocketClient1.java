@@ -24,7 +24,7 @@ public class SocketClient1 {
         StringBuilder sb = new StringBuilder();
         while ((len = inputStream.read(bytes)) != -1) {
             //注意指定编码格式，发送方和接收方一定要统一，建议使用UTF-8
-            sb.append(new String(bytes, 0, len,"UTF-8"));
+            sb.append(new String(bytes, 0, len, "UTF-8"));
         }
         System.out.println("get message from server: " + sb);
 

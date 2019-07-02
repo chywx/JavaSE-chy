@@ -1,7 +1,7 @@
 package newcom.basic.test1.son;
 
-public class B{
-    public void f(){
+public class B {
+    public void f() {
         /*
         继承情况下，p3,p4都会报错
          */

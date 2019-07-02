@@ -13,7 +13,7 @@ public class CASTest {
 
     public synchronized static void increment() {
 //        System.out.println(Thread.currentThread().getName()+"---"+ ++i);
-        System.out.println(Thread.currentThread().getName()+"---"+ i2.incrementAndGet());
+        System.out.println(Thread.currentThread().getName() + "---" + i2.incrementAndGet());
     }
 
 

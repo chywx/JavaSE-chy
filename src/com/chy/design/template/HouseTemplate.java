@@ -1,7 +1,7 @@
 package com.chy.design.template;
 
 public abstract class HouseTemplate {
-    protected HouseTemplate(String name){
+    protected HouseTemplate(String name) {
         this.name = name;
     }
 
@@ -18,17 +18,17 @@ public abstract class HouseTemplate {
     protected abstract void buildToilet();
 
     //钩子方法
-    protected boolean isBuildToilet(){
+    protected boolean isBuildToilet() {
         return true;
     }
 
     //公共逻辑
-    public final void buildHouse(){
+    public final void buildHouse() {
         buildBase();
         buildWall();
         buildDoor();
         buildWindow();
-        if(isBuildToilet()){
+        if (isBuildToilet()) {
             buildToilet();
         }
     }

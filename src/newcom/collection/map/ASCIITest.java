@@ -34,10 +34,9 @@ public class ASCIITest {
         System.out.println(s1.toString().equals(s2.toString()));
 
 
-
     }
 
-    private  static void setData(Map<String,Object> params){
+    private static void setData(Map<String, Object> params) {
         params.put("Nonce", 11886);
         params.put("Timestamp", 1465185768);
         params.put("SecretId", "AKIDz8krbsJ5yKBZQpn74WFkmLPx3EXAMPLE");

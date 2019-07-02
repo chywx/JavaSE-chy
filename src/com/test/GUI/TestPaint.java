@@ -1,8 +1,9 @@
 package com.test.GUI;
 
 import java.awt.*;
-public class TestPaint{
-    public static void main(String args[]){
+
+public class TestPaint {
+    public static void main(String args[]) {
         new MyPaint().launchFrame();
         /*在main()方法里面并没有显示调用paint(Graphics g)方法
         可是当创建出Frame窗体后却可以看到Frame窗体上画出了
@@ -14,21 +15,21 @@ public class TestPaint{
     }
 }
 
-class MyPaint extends Frame{
-    public void launchFrame(){
-        setBounds(200,200,640,480);
+class MyPaint extends Frame {
+    public void launchFrame() {
+        setBounds(200, 200, 640, 480);
         setVisible(true);
     }
-    
-    public void paint(Graphics g){
+
+    public void paint(Graphics g) {
         /*paint(Graphics g)方法有一个Graphics类型的参数g
         我们可以把这个g当作是一个画家，这个画家手里拿着一只画笔
         我们通过设置画笔的颜色与形状来画出我们想要的各种各样的图像*/
         /*设置画笔的颜色*/
         g.setColor(Color.red);
-        g.fillOval(100,100,100,100);/*画一个实心椭圆*/
+        g.fillOval(100, 100, 100, 100);/*画一个实心椭圆*/
         g.setColor(Color.green);
-        g.fillRect(150,200,200,200);/*画一个实心矩形*/
+        g.fillRect(150, 200, 200, 200);/*画一个实心矩形*/
         /*这下面的两行代码是为了写程序的良好编程习惯而写的
         前面设置了画笔的颜色，现在就应该把画笔的初始颜色恢复过来
         就相当于是画家用完画笔之后把画笔上的颜色清理掉一样*/

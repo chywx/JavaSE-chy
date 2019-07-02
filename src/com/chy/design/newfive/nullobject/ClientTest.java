@@ -7,8 +7,8 @@ public class ClientTest {
         hear(new NullAnimal());
     }
 
-    public static void hear(Animal animal){
+    public static void hear(Animal animal) {
 //        if(animal != null)
-            animal.makeSound();
+        animal.makeSound();
     }
 }

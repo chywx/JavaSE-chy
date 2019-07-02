@@ -41,10 +41,10 @@ class MyMonitor implements ActionListener {
     TextField num1, num2, num3;
 
     /*
-     * 为了使对按钮的监听能够对文本框也起作用， 
+     * 为了使对按钮的监听能够对文本框也起作用，
      * 所以在自定义类MyMonitor里面定义三个TextField类型的对象 num1,num2,num3,
      * 并且定义了MyMonitor类的一个构造方法 这个构造方法带有三个TextField类型的参数，
-     * 用于接收 从TFFrame类里面传递过来的三个TextField类型的参数 
+     * 用于接收 从TFFrame类里面传递过来的三个TextField类型的参数
      * 然后把接收到的三个TextField类型的参数赋值给在本类中声明的 三个TextField类型的参数num1,num2,num3 然后再在actionPerformed()方法里面处理num1,num2,num3
      */
     public MyMonitor(TextField num1, TextField num2, TextField num3) {
@@ -65,7 +65,7 @@ class MyMonitor implements ActionListener {
         /* 字符串与任意类型的数据使用“+”连接时得到的一定是字符串，
          * 这里使用一个空字符串与int类型的数连接，这样就可以直接把(n1+n2)得到的int类型的数隐式地转换成字符串了，
          * 这是一种把别的基础数据类型转换成字符串的一个小技巧。
-         * 也可以使用“String.valueOf((n1+n2))”把(n1+n2)的和转换成字符串 
+         * 也可以使用“String.valueOf((n1+n2))”把(n1+n2)的和转换成字符串
          */
     }
 }

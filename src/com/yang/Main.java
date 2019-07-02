@@ -9,7 +9,7 @@ public class Main {
     }
 
     @Test
-    public void test1(){
+    public void test1() {
         System.out.println("junit test");
     }
 

@@ -9,7 +9,7 @@ public class CglibProxyTest {
     @Test
     public void test1() {
         MyMethodInterceptor interceptor = new MyMethodInterceptor();
-        Person0505 instance = (Person0505)interceptor.getInstance(new Person0505());
+        Person0505 instance = (Person0505) interceptor.getInstance(new Person0505());
         instance.setName("陈海洋");
         instance.giveMoney();
     }

@@ -2,6 +2,7 @@ package com.chy.design.proxy.jdkdynamic;
 
 public class Student0219 implements Person0219 {
     private String name;
+
     public Student0219(String name) {
         this.name = name;
     }

@@ -13,20 +13,20 @@ public class TestMap {
 
 
     @Test
-    public void testHashtable(){
+    public void testHashtable() {
         Map<String, String> hashtable = new Hashtable<>();
-        hashtable.put("aaa","111");
-        hashtable.put("bbb","222");
-        hashtable.put("ccc","333");
+        hashtable.put("aaa", "111");
+        hashtable.put("bbb", "222");
+        hashtable.put("ccc", "333");
         System.out.println(hashtable);
     }
 
     @Test
-    public void testHashMap(){
+    public void testHashMap() {
         Map<String, String> map = new HashMap<>();
-        map.put("aaa","111");
-        map.put("bbb","222");
-        map.put("ccc","333");
+        map.put("aaa", "111");
+        map.put("bbb", "222");
+        map.put("ccc", "333");
         System.out.println(map);
     }
 
@@ -34,7 +34,7 @@ public class TestMap {
      * integer的hashcode就是当前值
      */
     @Test
-    public void test1(){
+    public void test1() {
         int i = 2 ^ 3;
         System.out.println(i);
 
@@ -48,8 +48,8 @@ public class TestMap {
 
         System.out.println("aa".hashCode());
 
-        System.out.println("0x7FFFFFFF:"+0x7FFFFFFF);
-        System.out.println("MAX_VALUE:"+Integer.MAX_VALUE);
+        System.out.println("0x7FFFFFFF:" + 0x7FFFFFFF);
+        System.out.println("MAX_VALUE:" + Integer.MAX_VALUE);
     }
 
     static final int hash(Object key) {
@@ -58,12 +58,12 @@ public class TestMap {
     }
 
     @Test
-    public void test2(){
+    public void test2() {
         String string = "abc|cba|aaa";
 //        System.out.println(string.replace("|",""));
-        System.out.println(string.replaceAll("\\|",""));
+        System.out.println(string.replaceAll("\\|", ""));
         String s = "\"abc\",\"aaa\"";
-        System.out.println(s.replaceAll("\"",""));
+        System.out.println(s.replaceAll("\"", ""));
 //        System.out.println(s.replaceAll("\\\"",""));
     }
 

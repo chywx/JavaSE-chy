@@ -18,7 +18,7 @@ public class Person0505 implements Serializable {
         this.name = name;
     }
 
-    public Person0505(){
+    public Person0505() {
 
     }
 

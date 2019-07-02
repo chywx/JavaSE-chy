@@ -2,11 +2,11 @@ package com.chy.design.template;
 
 public class HouseOne extends HouseTemplate {
 
-    HouseOne(String name){
+    HouseOne(String name) {
         super(name);
     }
 
-    HouseOne(String name, boolean isBuildToilet){
+    HouseOne(String name, boolean isBuildToilet) {
         this(name);
         this.isBuildToilet = isBuildToilet;
     }
@@ -15,7 +15,7 @@ public class HouseOne extends HouseTemplate {
 
     @Override
     protected void buildDoor() {
-        System.out.println(name +"的门要采用防盗门");
+        System.out.println(name + "的门要采用防盗门");
     }
 
     @Override
@@ -39,7 +39,7 @@ public class HouseOne extends HouseTemplate {
     }
 
     @Override
-    protected boolean isBuildToilet(){
+    protected boolean isBuildToilet() {
         return isBuildToilet;
     }
 }

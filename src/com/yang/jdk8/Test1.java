@@ -1,6 +1,6 @@
 package com.yang.jdk8;
 
-public class Test1 implements Demo1Face{
+public class Test1 implements Demo1Face {
 
     @Override
     public void f1() {
@@ -14,9 +14,10 @@ public class Test1 implements Demo1Face{
     }
 }
 
-interface Demo1Face{
+interface Demo1Face {
     public void f1();
-    public default void f2(){
+
+    public default void f2() {
         System.out.println("接口可以写方法了。");
     }
 }

@@ -1,6 +1,6 @@
 package com.test.abstrac;
 
-public class Zi extends Fu{
+public class Zi extends Fu {
 
     // f方法必须重写
     @Override

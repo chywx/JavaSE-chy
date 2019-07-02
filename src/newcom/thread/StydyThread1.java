@@ -2,7 +2,7 @@ package newcom.thread;
 
 import java.util.concurrent.TimeUnit;
 
-public class StydyThread1 extends Thread{
+public class StydyThread1 extends Thread {
 
     private int i = 100;
 

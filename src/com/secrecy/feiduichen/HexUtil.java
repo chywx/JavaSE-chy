@@ -1,7 +1,7 @@
 package com.secrecy.feiduichen;
 
 public class HexUtil {
-	/**
+    /**
      * 二进制byte数组转十六进制byte数组
      * byte array to hex
      *
@@ -21,7 +21,7 @@ public class HexUtil {
         }
         return hs.toString();
     }
- 
+
     /**
      * 十六进制byte数组转二进制byte数组
      * hex to byte array
@@ -30,9 +30,9 @@ public class HexUtil {
      * @return byte array
      */
     public static byte[] hex2byte(String hex)
-             throws IllegalArgumentException{
+            throws IllegalArgumentException {
         if (hex.length() % 2 != 0) {
-            throw new IllegalArgumentException ("invalid hex string");
+            throw new IllegalArgumentException("invalid hex string");
         }
         char[] arr = hex.toCharArray();
         byte[] b = new byte[hex.length() / 2];
@@ -43,15 +43,15 @@ public class HexUtil {
         }
         return b;
     }
-    
-	public static void main(String[] args) {
-		String str1 = "abcedefghijklmnopqrstuvwxyz";
-		//String str1 = "1";
-		String hexStr = HexUtil.byte2hex(str1.getBytes());
-		System.out.println(hexStr);
-		String str2 = new String(HexUtil.hex2byte(hexStr));
-		System.out.println(str2);
-		System.out.println(str1.equals(str2));
-	}
+
+    public static void main(String[] args) {
+        String str1 = "abcedefghijklmnopqrstuvwxyz";
+        //String str1 = "1";
+        String hexStr = HexUtil.byte2hex(str1.getBytes());
+        System.out.println(hexStr);
+        String str2 = new String(HexUtil.hex2byte(hexStr));
+        System.out.println(str2);
+        System.out.println(str1.equals(str2));
+    }
 
 }

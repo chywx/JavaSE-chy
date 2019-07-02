@@ -19,27 +19,27 @@ public class TestFunction {
 
 
     @Test
-    public void test1(){
-        Function<String,String> function = s -> s + " 你好!";
+    public void test1() {
+        Function<String, String> function = s -> s + " 你好!";
         String apply = function.apply("hello world");
         System.out.println(apply);
     }
 
     @Test
-    public void test2(){
+    public void test2() {
         Predicate<Integer> predicate = integer -> integer % 2 == 0;
         boolean test = predicate.test(4);
         System.out.println(test);
     }
 
     @Test
-    public void test3(){
+    public void test3() {
         Consumer<String> consumer = s -> System.out.println(s);
         consumer.accept("hello world");
     }
 
     @Test
-    public void test4(){
+    public void test4() {
         Supplier<String> supplier = () -> "hello world";
         System.out.println(supplier.get());
     }

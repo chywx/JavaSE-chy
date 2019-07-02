@@ -3,7 +3,7 @@ package newcom.datastructure.lru;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class LRUCache<K,V> extends LinkedHashMap<K,V> {
+public class LRUCache<K, V> extends LinkedHashMap<K, V> {
     //缓存大小
     private int cacheSize;
 
@@ -19,8 +19,8 @@ public class LRUCache<K,V> extends LinkedHashMap<K,V> {
     @Override
     protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
         boolean r = size() > cacheSize;
-        if(r){
-            System.out.println("清除缓存key："+eldest.getKey());
+        if (r) {
+            System.out.println("清除缓存key：" + eldest.getKey());
         }
         return r;
     }
