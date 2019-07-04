@@ -27,7 +27,7 @@ public class DingDingSendMsg {
 
         request.setMsgtype("link");
         OapiRobotSendRequest.Link link = new OapiRobotSendRequest.Link();
-        link.setMessageUrl("https://www.dingtalk.com/");
+        link.setMessageUrl("https://chywx.cnblogs.com/");
         link.setPicUrl("");
         link.setTitle("时代的火车向前开");
         link.setText("这个即将发布的新版本，创始人陈航（花名“无招”）称它为“红树林”。\n" +
