@@ -1,6 +1,5 @@
 package com.jdk18.lambda;
 
-import static org.hamcrest.CoreMatchers.nullValue;
 
 import java.util.ArrayList;
 import java.util.Arrays;
