@@ -6,67 +6,202 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a20943c-35a1-43b5-a724-d3414754665c" name="Default Changelist" comment="jdk版本由11修改为8">
-      <change beforePath="$PROJECT_DIR$/.idea/JavaSE_chy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSE_chy.iml" afterDir="false" />
+    <list default="true" id="6a20943c-35a1-43b5-a724-d3414754665c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a2/Adapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a2/Adapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a2/Clienter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a2/Clienter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a2/Usber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a2/Usber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a3/Adapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a3/Adapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a3/Ashili.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a3/Ashili.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/decorator/Decorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/decorator/Decorator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/DynamicProxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/DynamicProxyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/MonitorUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/MyInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/MyInvocationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/StuInvocationHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/Student0219.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/Student0219.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/staticproxy/Student0219.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/staticproxy/Student0219.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton5$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton5$SingletonHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Person4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Person4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Son4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Son4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/edu/testPay/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/edu/testPay/info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/Demo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/Demo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/secrecy/feiduichen/CreateKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/secrecy/feiduichen/CreateKey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/Monitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/Monitor2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/Monitor2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/MyPaint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/MyPaint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestActionEvent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestActionEvent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestActionEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestActionEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestActionEvent2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestActionEvent2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestPaint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestPaint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/Novisibility$ReaderThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/Novisibility$ReaderThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/Novisibility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/Novisibility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/TestVolatile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/TestVolatile$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/TestVolatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/TestVolatile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/util/ConnectUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/util/ConnectUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/util/test/TestClone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/util/test/TestClone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Demo1Face.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Demo1Face.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Demo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Demo3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Test2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/csdnxiaoliu/TestFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/csdnxiaoliu/TestFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaSE_chy/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/amrtomp3/ChangeAudioFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/arithmetic/BinaryFind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/arithmetic/tree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/arithmetic/tree/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/arithmetic/tree/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/ocr/TestPicture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/riqi/TestDataFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/riqi/util/SimpleDateFormatTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcom/thirdparty/dingding/DingDingSendMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcom/thirdparty/dingding/DingDingSendMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/a1/JavaSE_chy.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a1/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a1/Clienter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a1/Ps2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a1/Usb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a1/Usber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a2/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a2/Clienter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a2/Ps2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a2/Usb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a2/Usber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a3/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a3/Adapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a3/Ashili.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/adapter/a3/Clienter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/decorator/Clientor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/decorator/Decorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/decorator/Man.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/decorator/ManDecoratorA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/decorator/ManDecoratorB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/decorator/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/factory/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/factory/ClientAbstractFatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/factory/ConcreateFactory1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/factory/ConcreateFactory2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/factory/ProductA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/factory/ProductA1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/factory/ProductA2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/factory/ProductB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/factory/ProductB1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/factory/ProductB2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/newfive/nullobject/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/newfive/nullobject/ClientTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/newfive/nullobject/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/newfive/nullobject/NullAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/observer/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/observer/Observerable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/observer/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/observer/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/observer/WechatServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/cglib/CglibProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/cglib/MyMethodInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/cglib/MyMethodInterceptor2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/cglib/Person0505.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/DynamicProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/MyInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/MyInvocationHandler2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/Person0219.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/jdkdynamic/Student0219.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/staticproxy/Person0219.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/staticproxy/StaticProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/staticproxy/Student0219.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/proxy/staticproxy/StudentsProxy0219.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton5$SingletonHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/singleton/Singleton5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/template/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/template/HouseOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/template/HouseTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/chy/design/template/HouseTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Person2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Person3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Person4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Son2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Son3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/copy/test1/Son4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/edu/testPay/Test0123.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/edu/testPay/TestIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/edu/testPay/info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/equals/AdviceJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/equals/TestEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/Demo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/javaSE/fanxing/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test5$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test6$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test6$MyFUnction2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test6$MyFunction1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/jdk18/lambda/Test6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/secrecy/feiduichen/CreateKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/secrecy/feiduichen/HexUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/JavaVMStackOOM$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/JavaVMStackOOM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/abstrac/Fu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/abstrac/Zi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/exception/TestPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/Monitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/Monitor2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/Monitor3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/MyFrameTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/MyMonitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/MyPaint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TFFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestActionEvent$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestActionEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestActionEvent2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestPaint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/gui/TestTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/test/riqi/TestCalendar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/simple/TimerTaskThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/simple/TimerTaskThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/Novisibility$ReaderThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/Novisibility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/TestVolatile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/thread/volatiles/TestVolatile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/util/BeanChangeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/util/CloneUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/util/ConnectUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/util/PropertyMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/util/test/TestChange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/util/test/TestClone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Demo1Face.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Test2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/TestStream$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/TestStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/csdnxiaoliu/TestFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/imoccstudy/DemoClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/imoccstudy/MethodRefrenceDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/imoccstudy/StreamDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/imoccstudy/ThisDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/imoccstudy/ThisDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/zhangxigong/SortDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk8/zhangxigong/SortDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk9/imooc/flow/FlowDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/com/yang/jdk9/imooc/flow/MyProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/basic/test/ColorEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/basic/test1/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/basic/test1/son/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/basic/test1/son/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/basic/test2/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/basic/test2/Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/basic/test2/Test0508.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/basic/test3/Test0516.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/basic/test3/Test0521.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/basic/test5/TestCL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/collection/map/ASCIITest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/collection/map/TestMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/datastructure/BinaryFind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/datastructure/ZhiShu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/datastructure/lru/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/datastructure/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/datastructure/sort/QuickSort2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/datastructure/tree/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/datastructure/tree/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/datastructure/tree/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/socket/SocketClient1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/socket/SocketClient2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/socket/SocketServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/thirdparty/dingding/DingDingSendMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/thirdparty/ffmpeg/ChangeAudioFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/thirdparty/ocr/TestPicture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/thread/CASTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/thread/CASTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/thread/StydyThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/thread/cas/main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/thread/cas/main$LoopAtomic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/thread/cas/main$LoopSync.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/thread/cas/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/thread/cas/stopwatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/time/TestDataFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaSE_chy/newcom/time/util/SimpleDateFormatTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,95 +218,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newcom/datastructure/sort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newcom/datastructure/sort/QuickSort2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newcom/datastructure/ZhiShu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/newcom/basic/test5/TestCL.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="253">
-                <caret line="11" selection-start-line="11" selection-end-line="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newcom/socket/SocketServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newcom/thread/CASTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newcom/thirdparty/ffmpeg/ChangeAudioFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newcom/time/util/SimpleDateFormatTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newcom/thread/StydyThread1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="184">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -190,6 +241,9 @@
       <find>subscriber</find>
       <find>person</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\MyProject\JavaSE-chy</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -197,7 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/chy/design/proxy/staticproxy/Student0219.java" />
         <option value="$PROJECT_DIR$/src/com/chy/design/proxy/staticproxy/StudentsProxy.java" />
         <option value="$PROJECT_DIR$/src/com/chy/design/proxy/staticproxy/StudentsProxy0219.java" />
         <option value="$PROJECT_DIR$/src/com/chy/design/proxy/staticproxy/StaticProxyTest.java" />
@@ -244,10 +297,11 @@
         <option value="$PROJECT_DIR$/src/newcom/thread/cas/main.java" />
         <option value="$PROJECT_DIR$/src/newcom/basic/test/ColorEnum.java" />
         <option value="$PROJECT_DIR$/src/newcom/basic/test/Color2.java" />
-        <option value="$PROJECT_DIR$/src/newcom/datastructure/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/newcom/datastructure/sort/QuickSort2.java" />
         <option value="$PROJECT_DIR$/src/newcom/datastructure/ZhiShu.java" />
         <option value="$PROJECT_DIR$/src/newcom/basic/test5/TestCL.java" />
+        <option value="$PROJECT_DIR$/src/newcom/datastructure/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -264,8 +318,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,61 +330,12 @@
               <item name="JavaSE-chy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaSE-chy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE-chy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="newcom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE-chy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE-chy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="newcom" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE-chy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaSE-chy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="newcom" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="test5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE-chy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="JavaSE-chy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaSE-chy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE-chy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaSE-chy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,7 +354,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -361,19 +364,19 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.yang.jdk8" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="newcom.basic.test" />
       <recent name="com.chy.design.proxy.jdkdynamic" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="groovy.util.GroovyTestCase" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProject\JavaSE-chy" />
       <recent name="D:\MyProject\JavaSE-chy\lib" />
       <recent name="D:\Workspace\IdeaProjects\JavaSE_chy\lib" />
       <recent name="D:\Workspace\IdeaProjects\JavaSE_chy\src\com\util\test" />
       <recent name="D:\Workspace\IdeaProjects\JavaSE_chy\src\com\util" />
-      <recent name="D:\Workspace\IdeaProjects\JavaSE_chy\src\com\chy\design\proxy\staticproxy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -532,6 +535,7 @@
       <workItem from="1566382532195" duration="907000" />
       <workItem from="1566906935745" duration="692000" />
       <workItem from="1567131066517" duration="851000" />
+      <workItem from="1567502798644" duration="501000" />
     </task>
     <task id="LOCAL-00001" summary="添加json包依赖">
       <created>1554207917632</created>
@@ -582,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562224180196</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="输出1-100指数，快速排序，钉钉报警">
+      <created>1567503032256</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1567503032257</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -618,12 +629,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97414000" />
+    <option name="totallyTimeSpent" value="97915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29584223" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29904053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -641,7 +653,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.09978308" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.26898047" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5021692" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.24186552" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="12" />
@@ -677,10 +689,10 @@
     <MESSAGE value="修改URL" />
     <MESSAGE value="删除源码包" />
     <MESSAGE value="添加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
+    <MESSAGE value="输出1-100指数，快速排序，钉钉报警" />
+    <option name="LAST_COMMIT_MESSAGE" value="输出1-100指数，快速排序，钉钉报警" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/spring-beans-5.0.6.RELEASE.jar!/org/springframework/beans/BeanUtils.class" />
     <entry file="file://$PROJECT_DIR$/src/com/equals/TestEquals.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/cloud/demo" />
@@ -951,15 +963,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newcom/datastructure/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
+        <state relative-caret-position="578">
           <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newcom/datastructure/sort/QuickSort2.java">
+    <entry file="file://$PROJECT_DIR$/src/newcom/datastructure/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+        <state relative-caret-position="371">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newcom/datastructure/ZhiShu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newcom/basic/test5/TestCL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1008,17 +1034,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newcom/datastructure/ZhiShu.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newcom/basic/test5/TestCL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="184">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
