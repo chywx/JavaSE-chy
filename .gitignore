@@ -5,6 +5,7 @@ target/
 !**/src/test/**
 
 /out
+/.idea
 
 ### STS ###
 .apt_generated
