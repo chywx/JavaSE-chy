@@ -19,7 +19,8 @@ import java.util.Arrays;
 public class DingDingSendMsg {
 
 
-    public static final String TOKEN = "447eb1b80c75cfb299099a8de6d2646731ea07333f6c03d84655fac8da266862";
+//    public static final String TOKEN = "447eb1b80c75cfb299099a8de6d2646731ea07333f6c03d84655fac8da266862";
+    public static final String TOKEN = "dee731c70b253711cc213c96393098085fcb1447215bd46fccad0fc7513326f8";
 
     public static DingTalkClient client = new DefaultDingTalkClient("https://oapi.dingtalk.com/robot/send?access_token="+TOKEN);
 
@@ -44,7 +45,7 @@ public class DingDingSendMsg {
                 "而在此之前，每当面临重大升级，产品经理们都会取一个应景的代号，这一次，为什么是“红树林");
         request.setLink(link);
         System.out.println("link类型");
-        client.execute(request);
+//        client.execute(request);
 
         request.setMsgtype("markdown");
         OapiRobotSendRequest.Markdown markdown = new OapiRobotSendRequest.Markdown();
@@ -55,7 +56,7 @@ public class DingDingSendMsg {
                 "> ###### 10点20分发布 [天气](http://www.thinkpage.cn/) \n");
         request.setMarkdown(markdown);
         System.out.println("markdown类型");
-        client.execute(request);
+//        client.execute(request);
     }
 
 }
