@@ -7,6 +7,9 @@ target/
 /out
 /.idea
 
+/META-INF
+
+
 ### STS ###
 .apt_generated
 .classpath
