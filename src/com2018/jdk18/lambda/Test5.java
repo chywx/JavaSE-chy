@@ -9,6 +9,7 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 import org.junit.Test;
+import org.springframework.util.StringUtils;
 
 public class Test5 {
     /*
@@ -43,6 +44,12 @@ public class Test5 {
             add(new Person("Evonne", "Shari", "PHP programmer", "female", 40, 1800));
         }
     };
+
+    @Test
+    public void testMatch(){
+        boolean b = phpProgrammers.stream().anyMatch(p -> StringUtils.isEmpty(p.getFirstName()));
+        System.out.println(b);
+    }
 
     // 现在我们使用forEach方法来迭代输出上述列表:
     // 使用lambda进行遍历
