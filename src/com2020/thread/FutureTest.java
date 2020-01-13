@@ -15,16 +15,19 @@ import java.util.concurrent.TimeUnit;
 public class FutureTest {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
+        System.out.println(123);
         ExecutorService executorService = Executors.newCachedThreadPool();
         Future<Integer> submit = executorService.submit(() -> {
             System.out.println("子线程在计算");
-            TimeUnit.SECONDS.sleep(2);
+            TimeUnit.SECONDS.sleep(3);
             System.out.println("子线程计算完毕");
             return 100;
         });
+        System.out.println(456);
         Integer integer = submit.get();
         System.out.println(integer);
         executorService.shutdown();
+        System.out.println(789);
     }
 
 }
