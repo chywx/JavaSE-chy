@@ -29,9 +29,33 @@ package leetcode.editor.cn;//判断一个整数是否是回文数。回文数是
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution9 {
 
-    public boolean isPalindrome(int x) {
+    public static void main(String[] args) {
+        System.out.println(new Solution9().isPalindrome(123));
+        System.out.println(new Solution9().isPalindrome(121));
+        System.out.println(new Solution9().isPalindrome(-123));
+        System.out.println(new Solution9().isPalindrome(0));
+        System.out.println(new Solution9().isPalindrome(1221));
+        System.out.println(new Solution9().isPalindrome(12321));
+        System.out.println(new Solution9().isPalindrome(123321));
+        System.out.println(new Solution9().isPalindrome(123421));
 
+    }
+
+    public boolean isPalindrome(int x) {
+        if (x < 0) {
+            return false;
+        }
+        String string = String.valueOf(x);
+
+        char[] chars = string.toCharArray();
+        for (int i = 0; i < chars.length / 2; i++) {
+            if (chars[i] != chars[chars.length - i - 1]) {
+                return false;
+            }
+        }
         return true;
+
+
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
