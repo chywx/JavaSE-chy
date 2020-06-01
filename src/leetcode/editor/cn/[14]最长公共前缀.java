@@ -22,11 +22,11 @@ package leetcode.editor.cn;//编写一个函数来查找字符串数组中的最
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution14 {
 
     public static void main(String[] args) {
         String str[] = {"aa", "ab"};
-        String s = new Solution().longestCommonPrefix(str);
+        String s = new Solution14().longestCommonPrefix(str);
         System.out.println(s);
     }
 

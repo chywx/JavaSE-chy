@@ -28,8 +28,8 @@ class Solution2 {
         Solution2 solution = new Solution2();
 
         ListNode a1 = new ListNode(9);
-        ListNode a2 = new ListNode(8);
-        ListNode a3 = new ListNode(7);
+        ListNode a2 = new ListNode(9);
+        ListNode a3 = new ListNode(9);
         a1.setNext(a2);
         a2.setNext(a3);
 
