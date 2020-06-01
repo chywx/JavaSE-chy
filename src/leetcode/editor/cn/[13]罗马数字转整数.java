@@ -53,15 +53,86 @@ package leetcode.editor.cn;//罗马数字包含以下七种字符: I， V， X�
 // Related Topics 数学 字符串
 
 
+import org.springframework.util.StringUtils;
+
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution13 {
 
     public static void main(String[] args) {
-        System.out.println(123);
+        String s = "MCMXCIV";
+        System.out.println(new Solution13().romanToInt(s));
+//        System.out.println(new Solution13().romanToInt("XXVII"));
     }
 
+
+    /**
+     * //I             1
+     * //V             5
+     * //X             10
+     * //L             50
+     * //C             100
+     * //D             500
+     * //M             1000
+     */
     public int romanToInt(String s) {
-        return 0;
+        int sum = 0;
+        /*
+         * I 可以放在 V (5) 和 X (10) 的左边，来表示 4 和 9。
+         * X 可以放在 L (50) 和 C (100) 的左边，来表示 40 和 90。
+         * C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
+         */
+        if (s.contains("IV")) {
+            sum += 4;
+            s = s.replace("IV", "");
+        }
+        if (s.contains("IX")) {
+            sum += 9;
+            s = s.replace("IX", "");
+        }
+        if (s.contains("XL")) {
+            sum += 40;
+            s = s.replace("XL", "");
+        }
+        if (s.contains("XC")) {
+            sum += 90;
+            s = s.replace("XC", "");
+        }
+        if (s.contains("CD")) {
+            sum += 400;
+            s = s.replace("CD", "");
+        }
+        if (s.contains("CM")) {
+            sum += 900;
+            s = s.replace("CM", "");
+        }
+
+        char[] chars = s.toCharArray();
+
+        for (char c : chars) {
+            if ('I' == c) {
+                sum += 1;
+            }
+            if ('V' == c) {
+                sum += 5;
+            }
+            if ('X' == c) {
+                sum += 10;
+            }
+            if ('L' == c) {
+                sum += 50;
+            }
+            if ('C' == c) {
+                sum += 100;
+            }
+            if ('D' == c) {
+                sum += 500;
+            }
+            if ('M' == c) {
+                sum += 1000;
+            }
+        }
+        return sum;
     }
+
 }
 //leetcode submit region end(Prohibit modification and deletion)
