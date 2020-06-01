@@ -14,9 +14,6 @@ package leetcode.editor.cn;//给出两个 非空 的链表用来表示两个非�
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,9 +27,9 @@ class Solution2 {
     public static void main(String[] args) {
         Solution2 solution = new Solution2();
 
-        ListNode a1 = new ListNode(2);
-        ListNode a2 = new ListNode(4);
-        ListNode a3 = new ListNode(3);
+        ListNode a1 = new ListNode(9);
+        ListNode a2 = new ListNode(8);
+        ListNode a3 = new ListNode(7);
         a1.setNext(a2);
         a2.setNext(a3);
 
