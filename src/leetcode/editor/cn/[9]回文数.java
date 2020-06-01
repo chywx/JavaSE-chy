@@ -30,14 +30,14 @@ package leetcode.editor.cn;//判断一个整数是否是回文数。回文数是
 class Solution9 {
 
     public static void main(String[] args) {
-        System.out.println(new Solution9().isPalindrome(123));
-        System.out.println(new Solution9().isPalindrome(121));
-        System.out.println(new Solution9().isPalindrome(-123));
-        System.out.println(new Solution9().isPalindrome(0));
-        System.out.println(new Solution9().isPalindrome(1221));
-        System.out.println(new Solution9().isPalindrome(12321));
-        System.out.println(new Solution9().isPalindrome(123321));
-        System.out.println(new Solution9().isPalindrome(123421));
+//        System.out.println(new Solution9().isPalindrome(123));
+//        System.out.println(new Solution9().isPalindrome(121));
+//        System.out.println(new Solution9().isPalindrome(-123));
+//        System.out.println(new Solution9().isPalindrome(0));
+//        System.out.println(new Solution9().isPalindrome(1221));
+//        System.out.println(new Solution9().isPalindrome(12321));
+//        System.out.println(new Solution9().isPalindrome(123321));
+//        System.out.println(new Solution9().isPalindrome(123421));
 
     }
 
@@ -48,7 +48,8 @@ class Solution9 {
         String string = String.valueOf(x);
 
         char[] chars = string.toCharArray();
-        for (int i = 0; i < chars.length / 2; i++) {
+        int len = chars.length / 2;
+        for (int i = 0; i < len; i++) {
             if (chars[i] != chars[chars.length - i - 1]) {
                 return false;
             }

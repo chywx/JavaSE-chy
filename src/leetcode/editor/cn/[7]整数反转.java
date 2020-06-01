@@ -25,7 +25,7 @@ package leetcode.editor.cn;//给出一个 32 位的有符号整数，你需要�
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution7 {
 
     public int reverse(int x) {
         long n = 0;
