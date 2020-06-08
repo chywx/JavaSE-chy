@@ -42,16 +42,15 @@ package leetcode.editor.cn;//给定一个只包括 '('，')'，'{'，'}'，'['�
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution20 {
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution20 solution = new Solution20();
         System.out.println(solution.isValid("{[]}"));
         System.out.println(solution.isValid("([)]"));
         System.out.println(solution.isValid("}{"));
