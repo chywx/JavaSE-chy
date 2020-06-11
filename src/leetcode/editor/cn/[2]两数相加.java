@@ -24,6 +24,13 @@ package leetcode.editor.cn;//给出两个 非空 的链表用来表示两个非�
  */
 class Solution2 {
 
+    public static void main(String[] args) {
+        Solution2 solution2 = new Solution2();
+        ListNode2 l1 = new ListNode2(1, new ListNode2(2, new ListNode2(6)));
+        ListNode2 l2 = new ListNode2(2, new ListNode2(3, new ListNode2(5)));
+        System.out.println(solution2.addTwoNumbers(l1, l2));
+    }
+
     public ListNode2 addTwoNumbers(ListNode2 l1, ListNode2 l2) {
         ListNode2 pre = new ListNode2(0);
         ListNode2 cur = pre;
@@ -59,6 +66,19 @@ class ListNode2 {
 
     ListNode2(int x) {
         val = x;
+    }
+
+    public ListNode2(int val, ListNode2 next) {
+        this.val = val;
+        this.next = next;
+    }
+
+    @Override
+    public String toString() {
+        return "ListNode2{" +
+            "val=" + val +
+            ", next=" + next +
+            '}';
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
