@@ -14,6 +14,8 @@ package leetcode.editor.cn;//给定一个整数数组 nums 和一个目标值 ta
 // Related Topics 数组 哈希表
 
 
+import java.util.HashMap;
+import java.util.Map;
 import org.junit.Test;
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -25,6 +27,8 @@ class Solution1 {
         for (int anInt : ints) {
             System.out.println(anInt);
         }
+
+        newTwoSum(arr, 22);
     }
 
 
@@ -39,6 +43,21 @@ class Solution1 {
             }
         }
         return ints;
+    }
+
+    public static int[] newTwoSum(int[] nums, int target) {
+
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            map.put(nums[i], i);
+            int value = target - nums[i];
+            Integer integer = map.get(value);
+            if (integer != null && integer != i) {
+                System.out.println(integer + "---" + i);
+            }
+        }
+
+        return nums;
     }
 
 }
