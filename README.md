@@ -1,8 +1,6 @@
 # JavaSE_chy
 > java基础汇集，各种demo测试，基于jdk1.8
 
-### newcom包 
-> 记录2019
 - basic (java基础)
 - collection (集合)
 - datastructure (数据结构)
