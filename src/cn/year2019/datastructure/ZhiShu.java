@@ -7,6 +7,7 @@ package cn.year2019.datastructure;
  * @date 2019/8/27 0027
  */
 public class ZhiShu {
+
     public static void main(String[] args) {
         for (int i = 2; i <= 100; i++) { // 质数
             for (int k = 2; k <= i; k++) { // 除数
