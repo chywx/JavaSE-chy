@@ -17,6 +17,21 @@ import java.util.concurrent.Executors;
 public class TestFor {
 
     public static void main(String[] args) {
+        aa:
+        for (; ; ) {
+            int a = 0;
+            if (a == 0) {
+                break aa;
+            }
+        }
+        bb:
+        while (true) {
+            int a = 0;
+            if (a == 0) {
+                break bb;
+            }
+        }
+
         ExecutorService executorService = Executors.newFixedThreadPool(5);
         for (int i = 0; i < 100; i++) {
             executorService.execute(() -> {
