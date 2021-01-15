@@ -65,6 +65,15 @@ public class SoccerSort {
         });
         System.out.println(JSONObject.toJSONString(strings));
 
+        strings.sort((p1, p2) -> {
+            int i = p1.split(":")[0].compareTo(p2.split(":")[0]);
+            if (i == 0) {
+                return p1.split(":")[1].compareTo(p2.split(":")[1]);
+            }
+            return i;
+        });
+        System.out.println(JSONObject.toJSONString(strings));
+
     }
 
 }
