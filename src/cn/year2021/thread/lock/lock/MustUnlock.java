@@ -1,4 +1,4 @@
-package cn.year2021.thread.look.look;/**
+package cn.year2021.thread.lock.lock;/**
  * @author chy
  * @date 2021/1/15 0015 下午 14:36
  * Description：
