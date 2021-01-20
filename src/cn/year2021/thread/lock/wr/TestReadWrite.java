@@ -16,15 +16,18 @@ import java.util.concurrent.locks.ReentrantReadWriteLock.WriteLock;
  */
 public class TestReadWrite {
 
-    private static WriteLock writeLock = new ReentrantReadWriteLock().writeLock();
-    private static ReadLock readLock = new ReentrantReadWriteLock().readLock();
+    private static ReentrantReadWriteLock reentrantReadWriteLock = new ReentrantReadWriteLock();
+
+    private static WriteLock writeLock = reentrantReadWriteLock.writeLock();
+    private static ReadLock readLock = reentrantReadWriteLock.readLock();
 
     public static void main(String[] args) {
 
+        new Thread(() -> write(), "hello").start();
         new Thread(() -> read(), "A").start();
         new Thread(() -> read(), "B").start();
         new Thread(() -> write(), "C").start();
-        new Thread(() -> write(), "D").start();
+        new Thread(() -> read(), "D").start();
 
     }
 
