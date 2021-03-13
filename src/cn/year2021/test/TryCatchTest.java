@@ -10,7 +10,7 @@ package cn.year2021.test;/**
  * @author chy
  * @date 2021/2/24 0024
  */
-public class TryCacheTest {
+public class TryCatchTest {
 
     public static void main(String[] args) {
         System.out.println(fff());
