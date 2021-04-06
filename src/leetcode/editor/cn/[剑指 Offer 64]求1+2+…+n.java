@@ -25,10 +25,10 @@ package leetcode.editor.cn;//求 1+2+...+n ，要求不能使用乘除法、for�
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class SolutionOfter64 {
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        SolutionOfter64 solution = new SolutionOfter64();
         System.out.println(solution.sumNums(5));
     }
 
