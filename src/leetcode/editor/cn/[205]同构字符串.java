@@ -37,12 +37,10 @@ package leetcode.editor.cn;//给定两个字符串 s 和 t，判断它们是否�
 
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution205 {
 
     public boolean isIsomorphic(String s, String t) {
         if (s.length() != t.length()) {
@@ -68,7 +66,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution205 solution = new Solution205();
         System.out.println(solution.isIsomorphic("bbbaaaba", "aaabbbba"));
     }
 
