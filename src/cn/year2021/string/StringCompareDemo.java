@@ -20,6 +20,12 @@ public class StringCompareDemo {
         String e = d + 2;
         System.out.println(a == c);// b用final修饰了，c直接建立出wukong2，所以为true
         System.out.println(a == e);
+
+        String var0 = System.getProperty("java.ext.dirs");
+        System.out.println(var0);
+
+        String var1 = System.getProperty("java.class.path");
+        System.out.println(var1);
     }
 
 }
