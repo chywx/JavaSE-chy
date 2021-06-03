@@ -2,7 +2,7 @@ https://www.cnblogs.com/morethink/p/8419151.html
 
 # 冒牌排序
 
-![maopao](https://raw.githubusercontent.com/chywx/JavaSE-chy/master/images/sort/bubble .gif)
+![maopao](https://raw.githubusercontent.com/chywx/JavaSE-chy/master/images/sort/bubble.gif)
 
 # 堆排序
 
