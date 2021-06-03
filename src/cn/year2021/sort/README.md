@@ -1,5 +1,17 @@
 https://www.cnblogs.com/morethink/p/8419151.html
 
+# 冒牌排序
+
+![maopao](https://raw.githubusercontent.com/chywx/JavaSE-chy/master/images/sort/bubble .gif)
 
 # 堆排序
-![dui](https://img2018.cnblogs.com/blog/1469176/201903/1469176-20190329000545588-1486048945.gif)
+
+![dui](https://raw.githubusercontent.com/chywx/JavaSE-chy/master/images/sort/heap.gif)
+
+# 归并排序
+
+![guibing](https://raw.githubusercontent.com/chywx/JavaSE-chy/master/images/sort/merging.gif)
+
+
+# 总结
+![zongjie](https://raw.githubusercontent.com/chywx/JavaSE-chy/master/images/sort/sort-comparison.png)
