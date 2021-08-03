@@ -25,10 +25,10 @@ import java.util.List;
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class Solution206 {
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution206 solution = new Solution206();
 
         ListNode listNode = new ListNode(1);
         listNode.next = new ListNode(2);
