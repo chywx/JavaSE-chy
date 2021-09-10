@@ -37,7 +37,7 @@ import java.util.Comparator;
 import java.util.List;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution56 {
 
     public int[][] merge(int[][] intervals) {
         if (intervals.length == 0) {
@@ -58,8 +58,8 @@ class Solution {
 
     public static void main(String[] args) {
         int intervals[][] = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
-        Solution solution = new Solution();
-        int[][] merge = solution.merge(intervals);
+        Solution56 solution56 = new Solution56();
+        int[][] merge = solution56.merge(intervals);
         for (int[] ints : merge) {
             for (int anInt : ints) {
                 System.out.print(anInt + " ");
