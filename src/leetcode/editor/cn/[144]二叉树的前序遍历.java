@@ -55,6 +55,7 @@ package leetcode.editor.cn;//给你二叉树的根节点 root ，返回它节点
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Definition for a binary tree node.
@@ -71,13 +72,21 @@ import java.util.List;
  * }
  * }
  */
-class Solution {
+class Solution144 {
 
-//    public static void main(String[] args) {
-//        Solution solution = new Solution();
-//        List<Integer> integers = solution.preorderTraversal(null);
-//        System.out.println(integers);
-//    }
+    public static void main(String[] args) {
+        Solution144 solution144 = new Solution144();
+        List<Integer> integers = solution144.preorderTraversal(null);
+        System.out.println(integers);
+
+        UUID uuid = UUID.randomUUID();
+        System.out.println(uuid);
+        String s = uuid.toString().replaceAll("-", "");
+        System.out.println(s);
+
+        String replace = uuid.toString().replace("-", "");
+        System.out.println(replace);
+    }
 
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> integers = new ArrayList<>();
