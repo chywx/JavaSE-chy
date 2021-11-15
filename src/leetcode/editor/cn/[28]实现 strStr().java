@@ -46,15 +46,15 @@ package leetcode.editor.cn;//实现 strStr() 函数。
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution28 {
 
     public static void main(String[] args) {
         System.out.println("abc".indexOf("b"));
         System.out.println("abc".indexOf(""));
 
         System.out.println();
-        Solution solution = new Solution();
-        int i = solution.strStr("a", "a");
+        Solution28 solution28 = new Solution28();
+        int i = solution28.strStr("a", "a");
         System.out.println(">>>" + i);
     }
 
