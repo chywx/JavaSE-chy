@@ -28,13 +28,13 @@ import java.util.List;
 class Solution206 {
 
     public static void main(String[] args) {
-        Solution206 solution = new Solution206();
+        Solution206 solution206 = new Solution206();
 
         ListNode listNode = new ListNode(1);
         listNode.next = new ListNode(2);
         listNode.next.next = new ListNode(3);
 
-        ListNode res = solution.reverseList(listNode);
+        ListNode res = solution206.reverseList(listNode);
         System.out.println(res);
 
     }
