@@ -40,10 +40,10 @@ package leetcode.editor.cn;////给定一个排序数组和一个目标值，在�
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution35 {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().searchInsert(new int[]{1, 3, 5, 6}, 0));
+        System.out.println(new Solution35().searchInsert(new int[]{1, 3, 5, 6}, 0));
     }
 
     public int searchInsert(int[] nums, int target) {
