@@ -51,119 +51,84 @@ package leetcode.editor.cn;//现有函数 printNumber 可以用一个整数参�
 // Related Topics 多线程 👍 130 👎 0
 
 
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.Semaphore;
 import java.util.function.IntConsumer;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class ZeroEvenOdd {
+class ZeroEvenOdd1116 {
 
     public static void main(String[] args) throws InterruptedException {
-        ZeroEvenOdd zeroEvenOdd = new ZeroEvenOdd(8);
-        for (int i = 0; i < 16; i++) {
-            if (i < 8) {
-
-                new Thread(() -> {
-                    try {
-                        zeroEvenOdd.zero(System.out::println);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                    }
-                }).start();
-            } else if (i > 11) {
-                new Thread(() -> {
-                    try {
-                        zeroEvenOdd.even(System.out::println);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                    }
-                }).start();
-            } else {
-                new Thread(() -> {
-                    try {
-                        zeroEvenOdd.odd(System.out::println);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                    }
-                }).start();
+        ZeroEvenOdd1116 zeroEvenOdd = new ZeroEvenOdd1116(8);
+        new Thread(() -> {
+            try {
+                zeroEvenOdd.zero((i) -> System.out.println(i));
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
             }
-
-
-        }
+        }).start();
+        new Thread(() -> {
+            try {
+                zeroEvenOdd.even((i) -> System.out.println(i));
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }).start();
+        new Thread(() -> {
+            try {
+                zeroEvenOdd.odd((i) -> System.out.println(i));
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }).start();
     }
 
     private int n;
 
-    private volatile int state = 0;
+    Semaphore zero = new Semaphore(1);
+    Semaphore odd = new Semaphore(0);
+    Semaphore even = new Semaphore(0);
 
-    private volatile int num = 1;
 
-    private ReentrantLock lock = new ReentrantLock();
-
-    private Condition condition = lock.newCondition();
-
-    public ZeroEvenOdd(int n) {
+    public ZeroEvenOdd1116(int n) {
         this.n = n;
     }
 
     public void zero(IntConsumer printNumber) throws InterruptedException {
-        lock.lock();
-        while (state != 0) {
-            System.out.println("zero");
-            condition.await();
+        for (int i = 1; i <= n; i++) {
+//            System.out.println(i);
+            zero.acquire();
+            printNumber.accept(0);
+            if (i % 2 == 0) {
+                even.release();
+            } else {
+                odd.release();
+            }
         }
-        if (num > n) {
-            return;
-        }
-        printNumber.accept(0);
-        if (num % 2 == 0) {
-            state = 2;
-        } else {
-            state = 1;
-        }
-        condition.signalAll();
-        lock.unlock();
-
     }
 
     public void odd(IntConsumer printNumber) throws InterruptedException {
-        lock.lock();
-        while (state != 1) {
-            System.out.println("odd");
-            condition.await();
+        for (int i = 1; i <= n; i++) {
+//            System.out.println("odd:" + i);
+            if (i % 2 == 1) {
+                odd.acquire();
+                printNumber.accept(i);
+                zero.release();
+            }
         }
-        while (state == 0) {
-            System.out.println("===========odd");
-            condition.await();
-        }
-        if (num > n) {
-            return;
-        }
-        printNumber.accept(num);
-        num++;
-        state = 0;
-        condition.signalAll();
-        lock.unlock();
     }
 
     public void even(IntConsumer printNumber) throws InterruptedException {
-        lock.lock();
-        while (state != 2) {
-            System.out.println("even");
-            condition.await();
+        for (int i = 1; i <= n; i++) {
+//            System.out.println("even:" + i);
+            if (i % 2 == 0) {
+//                System.out.println(">>>>>>>>>>>" + i);
+                even.acquire();
+                printNumber.accept(i);
+//                System.out.println("<<<<<<<<<<<<<<<" + i);
+                zero.release();
+            }
+
         }
-        while (state == 0) {
-            System.out.println("===========even");
-            condition.await();
-        }
-        if (num > n) {
-            return;
-        }
-        printNumber.accept(num);
-        num++;
-        state = 0;
-        condition.signalAll();
-        lock.unlock();
     }
 
 
