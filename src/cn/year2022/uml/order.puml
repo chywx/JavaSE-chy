@@ -1,0 +1,177 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+package 商品模块 {
+
+    entity (spec) {
+        商品规格表（字典）
+        --
+        # id 主键
+        spec_code 规格编码
+        spec_name 规格名称 如：版本，时间
+        spec_type 规格类型 如：商品类，时间类
+        sort 排序
+        is_delete 逻辑删除 0正常 1已删除
+    }
+
+    entity (spu_spec) {
+        商品与规格关联表（暂时先根据商品类型写死）
+        --
+        # id 主键
+        * spu_id 商品ID
+        * spec_id 规格ID
+        spec_code 规格编码 继承自spec表，
+        spec_name 规格名称 继承自spec表，可编辑
+        sort 排序
+        is_delete 逻辑删除 0正常 1已删除
+    }
+
+    entity (spu_spec_value) {
+        商品规格值表
+        --
+        # id 主键
+        * spu_spec_id 商品与规格关联表ID
+        spec_id 规格ID冗余，继承自spu_spec
+        spu_id 商品ID冗余
+        name 选项名
+        spec_name 规格名冗余
+        spec_value 规格值
+        sort 排序
+        delete_token 逻辑删除令牌，兼容唯一索引， 0正常 等于主键值表示已删除
+        is_delete 逻辑删除 0正常 1已删除
+    }
+
+    entity (spu_spec_value_atom_spu) {
+        商品规格值与原子商品（单品/组合）关联表
+        --
+        # id 主键
+        * spu_spec_value_id 商品规格值ID
+        * atom_spu_id 单品或组合ID
+        spu_id 商品ID冗余
+        atom_spu_type 商品类型 1单品，2组合
+        atom_spu_num 商品数量
+        is_delete 逻辑删除 0正常 1已删除
+    }
+
+    entity (spu_spec_value_sku) {
+        商品规格值与sku关联表
+        --
+        # id 主键
+        * spu_spec_value_id 商品规格值ID
+        * sku_id 商品sku ID
+        spu_id 商品ID冗余
+        is_delete 逻辑删除 0正常 1已删除
+    }
+
+    entity (single) {
+        单品表
+        --
+        # id 主键
+        single_code 单品编码
+        title 商品名称
+        auth_target 授权目标 0 不限，1个人，2门店，3企业
+        type 类型 1权限 2渲染券 3其他
+        cost_price 成本价
+        quotable 是否生成额度 0 否 1是
+        tax_code 商品税率编码
+        tax_rate 商品税率
+        role_id 角色ID
+        coupon_code 渲染券编号
+        coupon_name 渲染券名称
+        total_issued 渲染券发放总数
+        delete_token 逻辑删除令牌，兼容唯一索引， 0正常 等于主键值表示已删除
+        is_delete 逻辑删除 0正常 1已删除
+    }
+
+    entity (combination) {
+        组合商品表
+        --
+        # id 主键
+        combination_code 组合编码
+        title 组合名称
+        auth_target 授权目标  1个人，2门店，3企业
+        single_count 单品数
+        delete_token 逻辑删除令牌，兼容唯一索引， 0正常 等于主键值表示已删除
+        is_delete 逻辑删除 0正常 1已删除
+    }
+
+    entity (combination_single) {
+        组合商品和单品关联表
+        --
+        # id 主键
+        * combination_id 组合商品ID
+        * single_id 单品ID
+        is_delete 逻辑删除 0正常 1已删除
+    }
+
+    entity (spu) {
+        商品表
+        --
+        # id 主键
+        spu_code 商品编码
+        spu_type 商品类型 1渲染券 2营销软件 33D软件套餐（定制+渲染）
+        title 标题，商品名称
+        saleable 是否上架，0下架，1上架
+        sales_target 可售卖 1个人，2门店，3企业
+        delete_token 逻辑删除令牌，兼容唯一索引， 0正常 等于主键值表示已删除
+        is_delete 逻辑删除 0正常 1已删除
+    }
+
+    entity (spu_detail) {
+        商品详细信息表
+        --
+        # spu_id 商品ID
+        short_intro 商品简介30字内
+        detail_intro 详细介绍
+        description 商品描述
+        content 商品内容
+        qa 商品QA内容
+        labels 标签,多个使用英文分号隔离
+        corner 角标
+        base_image 底图
+        images 图片url,多个使用英文分号隔离
+    }
+
+    entity (sku) {
+        sku表
+        --
+        # id 主键
+        * spu_id 商品ID冗余
+        sku_code sku编码
+        title 标题，商品名称，默认继承自spu
+        saleable 是否上架冗余，0下架，1上架 继承自spu
+        price 售价
+        is_delete 逻辑删除 0正常 1已删除
+    }
+
+'    entity (sku_atom_spu) {
+'        sku与原子商品（单品/组合）关联表
+'        --
+'        # id 主键
+'        sku_id 具体商品ID
+'        atom_spu_id 单品或组合ID
+'        spu_id 商品ID冗余
+'        atom_spu_type 商品类型 1单品，2组合
+'        atom_spu_num 商品数量
+'        is_delete 逻辑删除 0正常 1已删除
+'    }
+
+    spu_spec "n" -- "1" spu
+    spec "1" -- "n" spu_spec
+    combination_single "n" -- "1" single
+    combination_single "n" -- "1" combination
+    spu_spec_value "1" -- "n" spu_spec_value_atom_spu
+    spu_spec "1" -- "n" spu_spec_value
+    single "1" -- "n" spu_spec_value_atom_spu
+    combination "1" -- "n" spu_spec_value_atom_spu
+    sku "1" -- "n" spu_spec_value_sku
+'    sku "1" -- "n" sku_atom_spu
+'    single "1" -- "n" sku_atom_spu
+'    combination "1" -- "n" sku_atom_spu
+    spu_spec_value "1" -- "n" spu_spec_value_sku
+    spu "1" -- "n" sku
+    spu "1" -- "1" spu_detail
+}
+
+
+@enduml

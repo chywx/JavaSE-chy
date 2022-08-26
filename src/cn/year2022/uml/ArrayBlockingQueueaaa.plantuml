@@ -1,0 +1,25 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class AbstractCollection<E>
+class AbstractQueue<E>
+class ArrayBlockingQueue<E>
+interface BlockingQueue<E> << interface >>
+interface Collection<E> << interface >>
+interface Iterable<T> << interface >>
+interface Queue<E> << interface >>
+interface Serializable << interface >>
+
+AbstractCollection  -[#008200,dashed]-^  Collection         
+AbstractQueue       -[#000082,plain]-^  AbstractCollection 
+AbstractQueue       -[#008200,dashed]-^  Queue              
+ArrayBlockingQueue  -[#000082,plain]-^  AbstractQueue      
+ArrayBlockingQueue  -[#008200,dashed]-^  BlockingQueue      
+ArrayBlockingQueue  -[#008200,dashed]-^  Serializable       
+BlockingQueue       -[#008200,plain]-^  Queue              
+Collection          -[#008200,plain]-^  Iterable           
+Queue               -[#008200,plain]-^  Collection         
+@enduml
