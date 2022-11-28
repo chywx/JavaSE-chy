@@ -11,6 +11,8 @@ package leetcode.editor.cn;//将两个升序链表合并为一个新的 升序 �
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
+import java.io.Serializable;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -24,13 +26,43 @@ package leetcode.editor.cn;//将两个升序链表合并为一个新的 升序 �
 class Solution21 {
 
     public static void main(String[] args) {
-        Solution21 solution = new Solution21();
-        ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(6)));
-        ListNode l2 = new ListNode(2, new ListNode(3, new ListNode(5)));
-        System.out.println(solution.mergeTwoLists(l1, l2));
+//        Solution21 solution = new Solution21();
+//        ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(6)));
+//        ListNode l2 = new ListNode(2, new ListNode(3, new ListNode(5)));
+//        System.out.println(solution.mergeTwoLists(l1, l2));
     }
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode listNode = new ListNode(0);
+        ListNode prev = listNode;
+
+        while (l1 != null || l2 != null) {
+            if (l1 == null) {
+                prev.next = l2;
+                l2 = l2.next;
+                prev = prev.next;
+                continue;
+            }
+            if (l2 == null) {
+                prev.next = l1;
+                l1 = l1.next;
+                prev = prev.next;
+                continue;
+            }
+            if (l1.val < l2.val) {
+                prev.next = l1;
+                l1 = l1.next;
+            } else {
+                prev.next = l2;
+                l2 = l2.next;
+            }
+            prev = prev.next;
+        }
+
+        return listNode.next;
+    }
+
+    public ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
 
         ListNode listNode = new ListNode(0);
 
@@ -71,7 +103,7 @@ class Solution21 {
     }
 }
 
-class ListNode {
+class ListNode implements Serializable {
 
     int val;
     ListNode next;
@@ -91,9 +123,9 @@ class ListNode {
     @Override
     public String toString() {
         return "ListNode{" +
-            "val=" + val +
-            ", next=" + next +
-            '}';
+                "val=" + val +
+                ", next=" + next +
+                '}';
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

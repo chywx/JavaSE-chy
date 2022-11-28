@@ -40,24 +40,45 @@ package leetcode.editor.cn;//给定一个只包括 '('，')'，'{'，'}'，'['�
 // Related Topics 栈 字符串
 
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution20 {
 
     public static void main(String[] args) {
-        Solution20 solution = new Solution20();
-        System.out.println(solution.isValid("{[]}"));
-        System.out.println(solution.isValid("([)]"));
-        System.out.println(solution.isValid("}{"));
-        System.out.println(solution.isValid("null"));
+        Solution20 solution20 = new Solution20();
+        System.out.println(solution20.isValid("{[]}"));
+        System.out.println(solution20.isValid("([)]"));
+        System.out.println(solution20.isValid("}{"));
+        System.out.println(solution20.isValid("null"));
     }
 
     public boolean isValid(String s) {
+
+        Stack<Character> stack = new Stack<>();
+
+        for (char c : s.toCharArray()) {
+            if (c == '{') {
+                stack.push('}');
+            } else if (c == '[') {
+                stack.push(']');
+            } else if (c == '(') {
+                stack.push(')');
+            } else {
+                if(stack.isEmpty()){
+                    return false;
+                }
+                Character pop = stack.pop();
+                if (c != pop) {
+                    return false;
+                }
+            }
+        }
+
+        return stack.isEmpty();
+    }
+
+    public boolean isValid2(String s) {
         Map<Character, Character> map = new HashMap<>();
         map.put('(', ')');
         map.put('{', '}');

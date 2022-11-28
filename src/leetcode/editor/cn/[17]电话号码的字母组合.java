@@ -41,10 +41,10 @@ package leetcode.editor.cn;//给定一个仅包含数字 2-9 的字符串，返�
 import java.util.*;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution17 {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().letterCombinations("23"));
+        System.out.println(new Solution17().letterCombinations("23"));
     }
 
     public List<String> letterCombinations(String digits) {
