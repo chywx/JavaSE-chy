@@ -57,10 +57,61 @@ class Solution {
 
     public static void main(String[] args) {
 //        System.out.println(new Solution().threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
-        System.out.println(new Solution().threeSum(new int[]{-2, 0, 1, 1, 2}));
+//        System.out.println(new Solution().threeSum(new int[]{-2, 0, 1, 1, 2}));
+        System.out.println(new Solution().threeSum(new int[]{-4, -1, -1, 0, 1, 2}));
     }
 
+    // 再次尝试
     public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+
+        List<List<Integer>> list = new ArrayList<>();
+
+        if (nums.length < 3) {
+            return list;
+        }
+
+        // 提示说是让用双指针
+        // 定义左右指针，当左大于或者等于右指针时结束
+        for (int i = 0; i < nums.length - 2; i++) {
+            if (nums[i] > 0) {
+                break; // 如果当前数字大于0，则三数之和一定大于0，所以结束循环
+            }
+            if (i > 0 && nums[i] == nums[i - 1]) {
+                continue; // 去重
+            }
+
+            int left = i + 1;
+            int right = nums.length - 1;
+
+            while (left < right) {
+
+                int target = -nums[i];
+
+                if (nums[left] + nums[right] < target) {
+                    left++;
+                } else if (nums[left] + nums[right] > target) {
+                    right--;
+                } else {
+                    list.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                    while (left < right && nums[left] == nums[left + 1]) {
+                        left++; // 去重
+                    }
+                    while (left < right && nums[right] == nums[right - 1]) {
+                        right--; // 去重
+                    }
+                    left++;
+                    right--;
+                }
+            }
+
+        }
+        return list;
+
+    }
+
+    // 超时了
+    public List<List<Integer>> threeSum2(int[] nums) {
 
         Set<List<Integer>> list = new HashSet<>();
 
