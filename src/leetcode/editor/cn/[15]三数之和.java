@@ -53,12 +53,12 @@ package leetcode.editor.cn;//给你一个整数数组 nums ，判断是否存在
 import java.util.*;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution15 {
 
     public static void main(String[] args) {
 //        System.out.println(new Solution().threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
 //        System.out.println(new Solution().threeSum(new int[]{-2, 0, 1, 1, 2}));
-        System.out.println(new Solution().threeSum(new int[]{-4, -1, -1, 0, 1, 2}));
+        System.out.println(new Solution15().threeSum(new int[]{-4, -1, -1, 0, 1, 2}));
     }
 
     // 再次尝试
