@@ -55,13 +55,12 @@ package leetcode.editor.cn;//共有 n 名小伙伴一起做游戏。小伙伴们
 
 
 import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.Queue;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution1823 {
     public static void main(String[] args) {
-        System.out.println(new Solution().findTheWinner(5, 2));
+        System.out.println(new Solution1823().findTheWinner(5, 2));
     }
 
     public int findTheWinner(int n, int k) {
